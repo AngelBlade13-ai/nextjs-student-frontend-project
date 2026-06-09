@@ -61,7 +61,7 @@ MongoDB adds `_id` automatically. The frontend uses that `_id` for update and de
 Create `.env.local` in the project root:
 
 ```env
-MONGODB_URI=mongodb+srv://your_user:your_password@your_cluster.mongodb.net
+MONGODB_URI=your_mongodb_connection_string
 MONGODB_DB=student_api
 MONGODB_COLLECTION=students
 ```
